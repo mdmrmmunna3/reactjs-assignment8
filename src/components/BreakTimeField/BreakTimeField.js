@@ -1,9 +1,10 @@
+// import { useState } from 'react';
+import React from 'react';
+
 import './BreakTimeField.css'
 const BreakTimeField = () => {
-    
-    const breakHandleTime = () => {
-        console.log('new')
-        
+    const breakHandleTime = (id)=> {
+        console.log('connect', id)
     }
     return (
         <div className='break-container'>

@@ -23,22 +23,22 @@ const Club = () => {
         
     }
     return (
-        <div className=' club-container'>
-            <div className=" exercise-container">
-               {
-                exercises.map(exercise => <Exercise 
-                    key={exercise.id}
-                    exercise={exercise}
-                    handleAddToList = {handleAddToList}
-                    ></Exercise>)
-               }
+            <div className=' club-container'>
+                <div className=" exercise-container">
+                {
+                    exercises.map(exercise => <Exercise 
+                        key={exercise.id}
+                        exercise={exercise}
+                        handleAddToList = {handleAddToList}
+                        ></Exercise>)
+                }
+                </div>
+                <div className="details-info-container">
+                    <Information></Information>
+                    <BreakTimeField></BreakTimeField>
+                    <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
+                </div>
             </div>
-            <div className="details-info-container">
-                <Information></Information>
-                <BreakTimeField></BreakTimeField>
-                <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
-            </div>
-        </div>
     );
 };
 
