@@ -21,7 +21,6 @@ const Club = () => {
                }
             </div>
             <div className="details-info-container">
-                <h2>this is details</h2>
                 <Information></Information>
             </div>
         </div>
