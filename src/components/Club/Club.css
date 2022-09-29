@@ -18,6 +18,20 @@
     top: 0;
 }
 
+.activity-btn {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.664);
+    color: white;
+    margin-top: 20px;
+}
+
+.activity-btn:hover {
+    background-color: rgba(0, 128, 0, 0.856);
+}
+
 /* phone device responsive  */
 
 @media only screen and (max-width: 767px) {

@@ -37,6 +37,7 @@ const Club = () => {
                     <Information></Information>
                     <BreakTimeField></BreakTimeField>
                     <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
+                    <button className='activity-btn'>Activity Completed</button>
                 </div>
             </div>
     );
