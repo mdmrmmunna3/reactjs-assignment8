@@ -7,14 +7,20 @@ import './Club.css'
 const Club = () => {
     const [exercises, setExercise] = useState([]);
 
+    const [exerciseTimes, setexerciseTimes] = useState([]);
+
     useEffect(()=> {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setExercise(data))
     },[])
 
-    const handleAddToList = () => {
-        console.log('this is click handler')
+    const handleAddToList = (exercises) => {
+  
+       const newTime = [...exerciseTimes, exercises]
+    //    console.log(typeof newTime)
+       setexerciseTimes(newTime);
+        
     }
     return (
         <div className=' club-container'>
@@ -30,7 +36,7 @@ const Club = () => {
             <div className="details-info-container">
                 <Information></Information>
                 <BreakTimeField></BreakTimeField>
-                <ExerciseDetails></ExerciseDetails>
+                <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
             </div>
         </div>
     );
