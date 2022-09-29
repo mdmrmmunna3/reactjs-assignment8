@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BreakTimeField from '../BreakTimeField/BreakTimeField';
 import Exercise from '../Exercise/Exercise';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Information from '../Information/Information';
 import './Club.css'
 const Club = () => {
@@ -29,6 +30,7 @@ const Club = () => {
             <div className="details-info-container">
                 <Information></Information>
                 <BreakTimeField></BreakTimeField>
+                <ExerciseDetails></ExerciseDetails>
             </div>
         </div>
     );
