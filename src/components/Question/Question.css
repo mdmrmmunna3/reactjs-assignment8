@@ -1,0 +1,23 @@
+.text {
+    text-align: center;
+    color: rgb(3, 36, 80);
+}
+
+.text-line {
+    border-bottom: 2px solid green;
+    margin: 0 20px;
+}
+
+
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.question {
+    margin-top: 5px;
+    border: 1px solid green;
+    padding: 10px;
+    
+}
