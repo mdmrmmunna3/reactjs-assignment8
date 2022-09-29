@@ -10,8 +10,8 @@ const Club = () => {
         .then(data => setExercise(data))
     },[])
     return (
-        <div className='club-container'>
-            <div className="exercise-container">
+        <div className=' club-container'>
+            <div className=" exercise-container">
                {
                 exercises.map(exercise => <Exercise 
                     key={exercise.id}
