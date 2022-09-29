@@ -10,6 +10,10 @@ const Club = () => {
         .then(res => res.json())
         .then(data => setExercise(data))
     },[])
+
+    const handleAddToList = () => {
+        console.log('this is click handler')
+    }
     return (
         <div className=' club-container'>
             <div className=" exercise-container">
@@ -17,6 +21,7 @@ const Club = () => {
                 exercises.map(exercise => <Exercise 
                     key={exercise.id}
                     exercise={exercise}
+                    handleAddToList = {handleAddToList}
                     ></Exercise>)
                }
             </div>
