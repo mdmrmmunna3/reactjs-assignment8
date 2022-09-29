@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import BreakTimeField from '../BreakTimeField/BreakTimeField';
 import Exercise from '../Exercise/Exercise';
 import Information from '../Information/Information';
 import './Club.css'
@@ -27,6 +28,7 @@ const Club = () => {
             </div>
             <div className="details-info-container">
                 <Information></Information>
+                <BreakTimeField></BreakTimeField>
             </div>
         </div>
     );

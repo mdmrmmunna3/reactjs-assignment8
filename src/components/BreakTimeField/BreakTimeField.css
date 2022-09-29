@@ -1,0 +1,25 @@
+.break-container {
+    margin-top: 25px;
+}
+
+.break-time {
+    display: flex;
+    background-color: rgba(176, 196, 222, 0.521);
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.style {
+    background-color: rgba(245, 245, 245, 0.849);
+    margin-right: 5px;
+    padding: 4px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.style:hover{
+    color: white;
+    background-color: blue;
+}
