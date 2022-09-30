@@ -4,17 +4,17 @@
 }
 
 .text-line {
-    border-bottom: 2px solid green;
+    border-bottom: 1px solid black;
     margin: 0 20px;
-    color: coral;
+    color: blue;
     padding-bottom: 5px;
 }
 
 
 .question {
-    margin-top: 5px;
-    border: 1px solid green;
+    margin-top: 15px;
+    border: 1px solid blue;
     padding: 10px;
     border-radius: 20px;
-    background-color: lightcyan;
+    background-color: lightblue;
 }

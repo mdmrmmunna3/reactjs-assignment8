@@ -10,6 +10,8 @@ const Club = () => {
 
     const [exerciseTimes, setexerciseTimes] = useState([]);
 
+    const [breakTime, setBreakTime] = useState('');
+
     useEffect(()=> {
         fetch('data.json')
         .then(res => res.json())
@@ -21,9 +23,14 @@ const Club = () => {
        const newTime = [...exerciseTimes, exercises]
     //    console.log(typeof newTime)
        setexerciseTimes(newTime);
-        
+       
     }
-
+    
+    const breakHandleTime = (brTime) => {
+        // console.log(brTime)
+        setBreakTime(brTime);
+        localStorage.setItem('break-time', brTime)
+        }
    
     return (
             <div className=' club-container'>
@@ -35,10 +42,13 @@ const Club = () => {
                         handleAddToList = {handleAddToList}
                         ></Exercise>)
                 }
+
+               
                 </div>
                 <div className="details-info-container">
                     <Information></Information>
-                   <BreakTimeField></BreakTimeField>
+                   {/* <BreakTimeField breakTime={breakTime} breakHandleTime = {breakHandleTime}></BreakTimeField> */}
+                   <BreakTimeField breakHandleTime={breakHandleTime}></BreakTimeField>
                     <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
                     <Utilites></Utilites>
                 </div>

@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='header-container'>
+        <div className='header-container shadow'>
             <div className='logo-titel'>
                 <img src={logo} alt="" />
                 <h2 className='header-text'>Health & Fitness Workout-Club</h2>

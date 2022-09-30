@@ -1,15 +1,14 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import './ExerciseDetails.css'
 const ExerciseDetails = (props) => {
    const {exerciseTimes} = props;
-//    console.log(props)
+
    let totalTime = 0;
    for (const time of exerciseTimes) {
     // console.log(time)
     totalTime = totalTime + JSON.parse(time.time);
    }
-   
-   
+
     return (
         <div className='exerise-detailse-container'>
             <h5>Exercise Details</h5>
@@ -19,7 +18,7 @@ const ExerciseDetails = (props) => {
             </div>
             <div className="breakTime">
             <p>Break time</p>
-                <p className='break-minitue'> minute</p>
+                <p className='break-minitue'>{localStorage.getItem('break-time')} minute</p>
             </div>
         </div>
     );

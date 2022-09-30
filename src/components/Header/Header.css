@@ -1,5 +1,5 @@
 .header-text {
-    color: rgb(1, 65, 49);
+    color: white;
     margin-left: 10px;
     padding: 0 10px;
 }
@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: gray;
+    background-color: #6bbeda;
 }
 
 .logo-titel {

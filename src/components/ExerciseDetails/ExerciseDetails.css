@@ -6,7 +6,7 @@
 .exercise-time, .breakTime {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(176, 196, 222, 0.521);
+    background-color:white;
     border-radius: 8px;
     padding: 8px;
     margin-top: 15px;
@@ -14,7 +14,5 @@
     margin: 20px 0;
 }
 
-.execrise-minitue, .break-minitue {
-    color: azure;
-}
+
 
