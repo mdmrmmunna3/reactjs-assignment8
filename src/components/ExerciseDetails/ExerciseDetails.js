@@ -18,7 +18,7 @@ const ExerciseDetails = (props) => {
             </div>
             <div className="breakTime">
             <p>Break time</p>
-                <p className='break-minitue'>{localStorage.getItem('break-time')} minute</p>
+                <p className='break-minitue'>{localStorage.getItem('break-time')?localStorage.getItem('break-time'):0} minute</p>
             </div>
         </div>
     );
