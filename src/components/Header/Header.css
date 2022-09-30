@@ -42,3 +42,8 @@
 .link a:hover {
     color: yellowgreen;
 }
+
+.text-title {
+    color: white;
+    margin-top: 3px;
+}
