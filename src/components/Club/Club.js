@@ -10,7 +10,7 @@ const Club = () => {
 
     const [exerciseTimes, setexerciseTimes] = useState([]);
 
-    const [breakTime, setBreakTime] = useState('');
+    const [breakTime, setBreakTime] = useState(0);
 
     useEffect(()=> {
         fetch('data.json')
