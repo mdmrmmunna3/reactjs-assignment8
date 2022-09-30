@@ -8,7 +8,7 @@ const ExerciseDetails = (props) => {
     // console.log(time)
     totalTime = totalTime + JSON.parse(time.time);
    }
-   let breakTotalTime = 0;
+   
    
     return (
         <div className='exerise-detailse-container'>

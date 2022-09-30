@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+// // import { useState } from 'react';
 import React from 'react';
 
 import './BreakTimeField.css'
@@ -23,3 +23,33 @@ const BreakTimeField = () => {
 };
 
 export default BreakTimeField;
+
+// import React, { useEffect, useState } from 'react';
+
+// const BreakTimeField = () => {
+//     const [breakTime, setBreakTime] = useState[0];
+//     useEffect(()=> {
+//         const oldTime = localStorage.getItem('breakTime')
+//         let saveStorage = []
+//         if (oldTime) {
+//             saveStorage = [oldTime];
+//             localStorage.setItem('breakTime', JSON.stringify(saveStorage))
+//         }
+//         else {
+//             if(oldTime) {
+//                 return;
+//             }
+//             else {
+//                 localStorage.setItem('breakTime', JSON.stringify(breakTime))
+//                 setBreakTime(breakTime)
+//             }
+//         }
+//     },[breakTime])
+//     return (
+//         <div>
+            
+//         </div>
+//     );
+// };
+
+// export default BreakTimeField;

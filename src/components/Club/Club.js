@@ -3,6 +3,7 @@ import BreakTimeField from '../BreakTimeField/BreakTimeField';
 import Exercise from '../Exercise/Exercise';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import Information from '../Information/Information';
+import Utilites from '../Utitlites/Utilites';
 import './Club.css'
 const Club = () => {
     const [exercises, setExercise] = useState([]);
@@ -22,6 +23,8 @@ const Club = () => {
        setexerciseTimes(newTime);
         
     }
+
+   
     return (
             <div className=' club-container'>
                 <div className=" exercise-container">
@@ -37,8 +40,7 @@ const Club = () => {
                     <Information></Information>
                    <BreakTimeField></BreakTimeField>
                     <ExerciseDetails exerciseTimes={exerciseTimes}></ExerciseDetails>
-                    <button className='activity-btn'>
-                    Activity Completed</button>
+                    <Utilites></Utilites>
                 </div>
             </div>
     );
