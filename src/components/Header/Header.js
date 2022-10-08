@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from '../../imge/fitness-gym.jpg'
+import logo from '../../imge/gym-logo-strong.jpg'
 import './Header.css'
 
 const Header = () => {
     return (
         <div className='header-container shadow'>
-            <div>
-                <div className='logo-titel'>
+            <div className='d-flex align-items-center'>
+                <div className='logo-title'>
                     <img src={logo} alt="" />
-                    <h2 className='header-text'>Health & Fitness Workout-Club</h2>
                 </div>
-                <p className='text-title'>Select today's Your Favorite exercise</p>
+                <h3 className='header-text'>The Muscle and Strength Club</h3>
             </div>
-            
-            <div className='link'>
-                <a href="/Home">Home</a>
-                <a href="/Contact-us">Blog</a>
-            </div>
-            
+                <p className='club-text-title'>Select today's Your Favorite exercise and do your workout!</p>
         </div>
     );
 };
