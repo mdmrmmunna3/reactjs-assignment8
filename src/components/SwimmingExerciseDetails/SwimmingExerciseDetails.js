@@ -12,7 +12,7 @@ const SwimmingExerciseDetails = (props) => {
             <h5>Exercise Details</h5>
             <div className="exercise-time">
                 <p>Exercise time</p>
-                <p className='execrise-minitue'>{totalExerciseTime} minute</p>
+                <p>{totalExerciseTime} minutes</p>
             </div>
             <div className="breakTime">
             <p>Break time</p>

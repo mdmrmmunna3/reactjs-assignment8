@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import BreakTime from '../BreakTime/BreakTime';
 import MyInfo from '../MyInfo/MyInfo';
 import SwimmingExerciseCart from '../SwimmingExerciseCart/SwimmingExerciseCart';
+import SwimmingExerciseDetails from '../SwimmingExerciseDetails/SwimmingExerciseDetails';
 
 import './ClubContainer.css'
 const ClubContainer = () => {
@@ -39,6 +40,7 @@ const ClubContainer = () => {
                 <div className="details-info-container">
                    <MyInfo></MyInfo>
                    <BreakTime></BreakTime>
+                   <SwimmingExerciseDetails exerciseTimes={exerciseTimes}></SwimmingExerciseDetails>
                 </div>
         </div>
     );
