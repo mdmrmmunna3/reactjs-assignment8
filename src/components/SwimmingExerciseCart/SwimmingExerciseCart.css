@@ -34,13 +34,13 @@
     border: none;
     padding-top: 10px;
     font-weight: 700;
-    background-color: rgba(0, 0, 255, 0.705);
+    background-color: rgba(28, 223, 44, 0.884);
     color: white;
     border-radius: 5px;
 }
 
 .add-to-click-btn:hover {
-    background-color: blue;
+    background-color: rgba(0, 128, 0, 0.808);
 }
 
 /* responsive view  */

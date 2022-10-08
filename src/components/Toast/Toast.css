@@ -1,5 +1,5 @@
 .activity-btn {
-    background-color: rgba(0, 0, 255, 0.712);
+    background-color: rgba(28, 223, 44, 0.884);
     font-weight: 600;
     width: 100%;
     color: white;
@@ -9,5 +9,5 @@
 }
 
 .activity-btn:hover {
-    background-color: blue;
+    background-color: rgba(0, 128, 0, 0.808);
 }
