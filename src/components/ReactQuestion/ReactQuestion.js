@@ -16,7 +16,7 @@ const ReactQuestion = () => {
                 </div>
 
                 <div className='essential-question'>
-                    <h4 className='fw-bold text-primary'>3. What else can be done with useEffect without loading data in react?</h4>
+                    <h4 className='fw-bold text-primary'>2. What else can be done with useEffect without loading data in react?</h4>
                     <p className='fw-semibold '>Ans :
                         <span>Running once on mount: fetch API data</span> <br />
                         <span>Running on state change: validating input field</span> <br />
@@ -28,7 +28,7 @@ const ReactQuestion = () => {
                 </div>
 
                 <div className='essential-question'>
-                    <h4 className='fw-bold text-primary'>2. what is difference between props and state in react?</h4>
+                    <h4 className='fw-bold text-primary'>3. what is difference between props and state in react?</h4>
                     <p className='fw-semibold '>Ans :<b>props :</b> Props are known as properties it can be used to pass data from one component to another. Props cannot be modified, read-only, and Immutable. <br />
                         <b> State:</b> The state represents parts of an Application that can change. Each component can have its State. The state is Mutable and It is local to the component only.</p>
                 </div>

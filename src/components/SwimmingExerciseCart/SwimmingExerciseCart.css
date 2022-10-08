@@ -3,7 +3,7 @@
     border-radius: 10px;
     position: relative;
     width: 100%;
-    height: 470px;
+    height: 450px;
    
 }
 
@@ -41,4 +41,16 @@
 
 .add-to-click-btn:hover {
     background-color: blue;
+}
+
+/* responsive view  */
+
+@media only screen and (max-width: 767px) {
+    .swimming-execrise  {
+        /* width: 90%; */
+        height: 380px;
+    }
+    .swimming-execrise  img {
+        height: 130px;
+    }
 }

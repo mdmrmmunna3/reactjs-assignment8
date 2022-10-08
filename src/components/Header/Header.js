@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='header-container shadow'>
             <div className='d-flex align-items-center'>
-                <div className='logo-title'>
+                <div className='logo-img'>
                     <img src={logo} alt="" />
                 </div>
                 <h3 className='header-text'>Dashing Shark Club</h3>

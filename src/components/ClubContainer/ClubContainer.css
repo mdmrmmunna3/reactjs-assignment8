@@ -12,6 +12,31 @@
 }
 
 .details-info-container {
-    background-color: rgba(250, 190, 190, 0.815);
+    background-color: rgba(250, 190, 190, 0.747);
     padding: 20px 10px;
+    border-radius: 10px;
+}
+
+/* phone device responsive view */
+
+@media only screen and (max-width: 767px) {
+    .club-container {
+        grid-template-columns: 1fr;
+    }
+    .swimming-exercise-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+}
+
+
+/* table device responsive view */
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .club-container {
+        grid-template-columns: 2fr 1fr;
+    }
+    .swimming-exercise-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
