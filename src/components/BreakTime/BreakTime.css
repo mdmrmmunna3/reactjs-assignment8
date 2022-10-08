@@ -1,0 +1,30 @@
+.break-time-container {
+    margin-top: 20px;
+}
+
+.break-title{
+    margin-top: 15px;
+}
+
+.break-time {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 15px;
+}
+
+.brTime-rest {
+    background-color: rgba(245, 245, 245, 0.849);
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
+
+.brTime-rest:hover{
+    color: white;
+    background-color: blue;
+}

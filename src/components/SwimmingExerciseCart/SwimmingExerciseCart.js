@@ -1,7 +1,7 @@
 import React from 'react';
 import './SwimmingExerciseCart.css'
 const SwimmingExerciseCart = ({exercise,handleAddToList}) => {
-    const {img, name, desciption, age, time} = exercise;
+    const {img, name, desciption, time} = exercise;
     return (
         <div>
             <div className='swimming-execrise '>

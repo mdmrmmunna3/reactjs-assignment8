@@ -22,10 +22,10 @@
     align-items: center;
     background-color: rgba(224, 255, 255, 0.199);
     border-radius: 8px;
-    padding: 4px;
+    padding: 6px;
 }
 
 .details {
-    font-size: 18px;
-    margin-left: 20px;
+    font-size: 15px;
+    margin-left: 25px;
 }

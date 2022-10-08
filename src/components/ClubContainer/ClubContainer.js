@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import BreakTime from '../BreakTime/BreakTime';
 import MyInfo from '../MyInfo/MyInfo';
 import SwimmingExerciseCart from '../SwimmingExerciseCart/SwimmingExerciseCart';
 
@@ -37,6 +38,7 @@ const ClubContainer = () => {
             
                 <div className="details-info-container">
                    <MyInfo></MyInfo>
+                   <BreakTime></BreakTime>
                 </div>
         </div>
     );
