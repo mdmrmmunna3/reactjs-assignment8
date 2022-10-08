@@ -1,0 +1,17 @@
+.text {
+    text-align: center;
+    color: rgb(3, 36, 80);
+}
+
+.question-title {
+    margin: 30px 20px 20px 20px;
+    padding-bottom: 5px;
+}
+
+.essential-question {
+    margin-top: 15px;
+    border: 1px solid lightcoral;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(235, 171, 171);
+}
