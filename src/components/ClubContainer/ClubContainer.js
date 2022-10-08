@@ -3,6 +3,7 @@ import BreakTime from '../BreakTime/BreakTime';
 import MyInfo from '../MyInfo/MyInfo';
 import SwimmingExerciseCart from '../SwimmingExerciseCart/SwimmingExerciseCart';
 import SwimmingExerciseDetails from '../SwimmingExerciseDetails/SwimmingExerciseDetails';
+import Toast from '../Toast/Toast';
 
 import './ClubContainer.css'
 const ClubContainer = () => {
@@ -49,6 +50,7 @@ const ClubContainer = () => {
                    <MyInfo></MyInfo>
                    <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
                    <SwimmingExerciseDetails exerciseTimes={exerciseTimes}></SwimmingExerciseDetails>
+                   <Toast></Toast>
                 </div>
         </div>
     );
