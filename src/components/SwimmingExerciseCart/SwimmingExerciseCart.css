@@ -1,0 +1,44 @@
+.swimming-execrise {
+    border: 1px solid rgba(223, 220, 220, 0.788);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 470px;
+   
+}
+
+.swimming-execrise img {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.swimming-execrise-info {
+    margin: 0 10px;
+}
+
+.description {
+    color: gray;
+    font-size: 14px;
+}
+
+.time {
+    margin-top: 10px;
+}
+
+.add-to-click-btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    padding-top: 10px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 255, 0.705);
+    color: white;
+    border-radius: 5px;
+}
+
+.add-to-click-btn:hover {
+    background-color: blue;
+}

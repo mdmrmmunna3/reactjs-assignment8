@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../imge/gym-logo-strong.jpg'
+import logo from '../../imge/stock-vectswimming-club-logo-.jpg'
 import './Header.css'
 
 const Header = () => {
@@ -9,9 +9,9 @@ const Header = () => {
                 <div className='logo-title'>
                     <img src={logo} alt="" />
                 </div>
-                <h3 className='header-text'>The Muscle and Strength Club</h3>
+                <h3 className='header-text'>Dashing Shark Club</h3>
             </div>
-                <p className='club-text-title'>Select today's Your Favorite exercise and do your workout!</p>
+                <p className='club-text-title'>Select today's Your Favorite Swimmingexercise and do your workout!</p>
         </div>
     );
 };

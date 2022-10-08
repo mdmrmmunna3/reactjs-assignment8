@@ -1,50 +1,51 @@
 [
   {
     "id": "6335252b4634fb06058763c5",
-    "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/04/1109-hanging-leg-raise-abs-lean-muscular.jpg?quality=86&strip=all",
-    "name": "Pullups-abs-workout",
-    "desciption": "Abs workouts strengthen the muscles around the spine and improve posture as the body's weight is correctly distributed. Having a good posture is ..",
-    "age": "20 - 25",
-    "time": 20
+    "img": "https://cdn2.hubspot.net/hubfs/3992334/Freestyle%20Stroke.png",
+    "name": "Freestyle-Swimming-Stroke",
+    "desciption": "The freestyle stroke, also known as front crawl, is the fastest and most efficient of the swimming strokes used in competition.",
+    
+    "time": 30
   },
   {
     "id": "6335252b2c282a5bf0678284",
-    "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/01/Bodybuilder-Barbell-Biceps-Curl-1109.jpg?w=1109&h=614&crop=1&quality=86&strip=all",
-    "name": "Muscle Workout",
-    "desciption": " Regular strength training improves the health of your bones, muscles, and connective tissue. Building stronger muscles helps you maintain a healthy weight.",
-    "age": "20 - 25",
-    "time": 25
+    "img": "https://swimjim.com/wp-content/uploads/2018/01/rsz_istock-959220268_1.jpg",
+    "name": "Backstroke-Swimming",
+    "desciption": " Backstroke or back crawl is one of the four swimming styles used in competitive events regulated by FINA, and the only one of these styles swum on the back.",
+    
+    "time": 35
   },
+
   {
     "id": "6335252bf7cd5522839340e6",
-    "img": "https://www.muscleandfitness.com/wp-content/uploads/2019/05/man-gym-lat-pulldown-1109.jpg?quality=86&strip=all",
-    "name": "Back-Workout",
-    "desciption": "Regular strength training improves the health of your bones, muscles, and connective tissue. Building stronger muscles helps you maintain a healthy weight.",
-    "age": "20 - 25",
+    "img": "https://www.yourswimlog.com/wp-content/uploads/2017/01/The-Breaststroke-Everything-You-Need-to-Know.jpg",
+    "name": "Breaststroke-Swimming",
+    "desciption": "Breaststroke is a swimming style in which the swimmer is on their chest and the torso does not rotate. It is the most popular recreational style due to the ..",
+    
     "time": 30
   },
   {
     "id": "6335252b9589e09178156bfe",
-    "img": "https://prod-ne-cdn-media.puregym.com/media/810213/bodyweight.jpg?quality=80&width=992",
-    "name": "FullBody-Workout",
-    "desciption": "Regular strength training improves the health of your bones, muscles, and connective tissue. Building stronger muscles helps you maintain a healthy weight.",
-    "age": "20 - 25",
-    "time": 20
+    "img": "https://www.enjoy-swimming.com/wp-content/uploads/butterfly-stroke-1.jpg.webp",
+    "name": "ButerflyStroke-Swimming",
+    "desciption": "The butterfly (colloquially shortened to fly) is a swimming stroke swum on the chest, with both arms moving symmetrically, accompanied by the butterfly ..",
+   
+    "time": 40
   },
   {
     "id": "633529c4068be846dfb1bceb",
-    "img": "https://i.zoomtventertainment.com/story/Exercises_for_the_chest.jpg?tr=w-400,h-300,fo-auto",
-    "name": "Chest Workout",
-    "desciption": "In addition to improving your posture, strengthening and lengthening chest muscles helps to support deeper breathing. That's ..",
-    "age": "20 - 25",
-    "time": 25
+    "img": "https://www.turnerswimdublin.ie/wp-content/uploads/2016/06/ec3e86a9-1f32-4e34-864f-9102621ea348-820x400.jpg",
+    "name": "FrontCrawl-Swimming",
+    "desciption": "The front crawl or forward crawl, also known as the Australian crawl or American crawl, is a swimming stroke usually regarded as the fastest of the four ...",
+ 
+    "time": 45
   },
   {
     "id": "6335252b7414a0122294a704",
-    "img": "https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men.jpg",
-    "name": "Dummble-Workout",
-    "desciption": "Just like any other muscle, your abs need a break too! That doesn't mean you can't activate your ab muscles during your warm-up .",
-    "age": "20 - 25",
-    "time": 15
+    "img": "https://images02.military.com/sites/default/files/styles/full/public/2022-01/morecss.jpg",
+    "name": "Sidestroke-Swimming",
+    "desciption": "The sidestroke is a swimming stroke, so named because the swimmer lies on one's side with asymmetric arm and leg motion. .. It is helpful as a lifesaving ...",
+ 
+    "time": 35
   }
 ]

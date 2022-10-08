@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import ExerciseCart from '../ExerciseCart/ExerciseCart';
+import SwimmingExerciseCart from '../SwimmingExerciseCart/SwimmingExerciseCart';
 
 import './ClubContainer.css'
 const ClubContainer = () => {
-    const [exercises, setExercise] = useState([])
+    const [swmmingExercises, setSwmmingExercises] = useState([])
 
     const [exerciseTimes, setexerciseTimes] = useState([]);
 
@@ -12,25 +12,25 @@ const ClubContainer = () => {
         console.log(data)
         fetch('data.json')
             .then(res => res.json())
-            .then(data => setExercise(data))
+            .then(data => setSwmmingExercises(data))
     }, [])
 
-    const handleAddToList = (exercises) => {
+    const handleAddToList = (swmmingExercises) => {
   
-        const newTime = [...exerciseTimes, exercises]
+        const newTime = [...exerciseTimes, swmmingExercises]
         setexerciseTimes(newTime);
         
      }
 
     return (
         <div className='club-container'>
-            <div className=" exercise-container">
+            <div className=" swimming-exercise-container">
                 {
-                    exercises.map(exercise => <ExerciseCart
-                        key={exercise.id}
-                        exercise={exercise}
+                    swmmingExercises.map(swmmingExercise => <SwimmingExerciseCart
+                        key={swmmingExercise.id}
+                        exercise={swmmingExercise}
                         handleAddToList = {handleAddToList}
-                        ></ExerciseCart>)
+                        ></SwimmingExerciseCart>)
                 }
                 </div>
             

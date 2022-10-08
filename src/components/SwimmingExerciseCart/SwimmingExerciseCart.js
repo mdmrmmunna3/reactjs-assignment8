@@ -1,15 +1,14 @@
 import React from 'react';
-import './ExerciseCart.css'
-const ExerciseCart = ({exercise,handleAddToList}) => {
+import './SwimmingExerciseCart.css'
+const SwimmingExerciseCart = ({exercise,handleAddToList}) => {
     const {img, name, desciption, age, time} = exercise;
     return (
         <div>
-            <div className='execrise '>
+            <div className='swimming-execrise '>
                 <img src={img} alt="" />
-                <div className='execrise-info'>
+                <div className='swimming-execrise-info'>
                     <p className='fw-bold'> {name}</p>
                     <p className='description'>{desciption}</p>
-                    <p className='fw-semibold'>For Age : {age}</p>
                     <p className='fw-bold time'>Time required : {time}min</p>
                 </div>
                 <button onClick={()=>handleAddToList(exercise)} className='add-to-click-btn'>
@@ -20,4 +19,4 @@ const ExerciseCart = ({exercise,handleAddToList}) => {
     );
 };
 
-export default ExerciseCart;
+export default SwimmingExerciseCart;
