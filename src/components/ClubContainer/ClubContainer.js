@@ -19,8 +19,8 @@ const ClubContainer = () => {
 
     const handleAddToList = (swmmingExercises) => {
   
-        const newTime = [...exerciseTimes, swmmingExercises]
-        setexerciseTimes(newTime);
+        const exerciseTime = [...exerciseTimes, swmmingExercises]
+        setexerciseTimes(exerciseTime);
         
      }
 
@@ -30,7 +30,7 @@ const ClubContainer = () => {
                 {
                     swmmingExercises.map(swmmingExercise => <SwimmingExerciseCart
                         key={swmmingExercise.id}
-                        exercise={swmmingExercise}
+                        swmmingExercise={swmmingExercise}
                         handleAddToList = {handleAddToList}
                         ></SwimmingExerciseCart>)
                 }
