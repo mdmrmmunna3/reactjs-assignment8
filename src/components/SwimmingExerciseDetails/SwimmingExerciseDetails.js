@@ -1,11 +1,11 @@
 import './SwimmingExerciseDetails.css'
 const SwimmingExerciseDetails = (props) => {
-   const {exerciseTimes} = props;
+    const { exerciseTimes } = props;
 
-   let totalExerciseTime = 0;
-   for (const time of exerciseTimes) {
-    totalExerciseTime = totalExerciseTime + JSON.parse(time.time);
-   }
+    let totalExerciseTime = 0;
+    for (const time of exerciseTimes) {
+        totalExerciseTime = totalExerciseTime + JSON.parse(time.time);
+    }
 
     return (
         <div className='exerise-detailse-container'>
@@ -15,8 +15,8 @@ const SwimmingExerciseDetails = (props) => {
                 <p>{totalExerciseTime} minutes</p>
             </div>
             <div className="breakTime">
-            <p>Break time</p>
-                
+                <p>Break time</p>
+                <p>{localStorage.getItem('break-time') ? localStorage.getItem('break-time') : 0} minute</p>
             </div>
         </div>
     );

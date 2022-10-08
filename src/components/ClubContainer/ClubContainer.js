@@ -10,6 +10,9 @@ const ClubContainer = () => {
 
     const [exerciseTimes, setexerciseTimes] = useState([]);
 
+    const [breaktime, setBreakTime] = useState(0);
+    console.log(breaktime);
+
     useEffect(() => {
         const data = 'data.json';
         console.log(data)
@@ -23,7 +26,12 @@ const ClubContainer = () => {
         const exerciseTime = [...exerciseTimes, swmmingExercises]
         setexerciseTimes(exerciseTime);
         
-     }
+     };
+
+     const handleBreakTime = (breakTime) => {
+        setBreakTime(breakTime);
+        localStorage.setItem('break-time', breakTime)
+        }
 
     return (
         <div className='club-container'>
@@ -39,7 +47,7 @@ const ClubContainer = () => {
             
                 <div className="details-info-container">
                    <MyInfo></MyInfo>
-                   <BreakTime></BreakTime>
+                   <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
                    <SwimmingExerciseDetails exerciseTimes={exerciseTimes}></SwimmingExerciseDetails>
                 </div>
         </div>
